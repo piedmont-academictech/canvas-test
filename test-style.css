@@ -1,4 +1,5 @@
 /* Hide Course Title */
+.pages.show .page-title,
 .pages.show.home .course-title {
   display: none;
 }
