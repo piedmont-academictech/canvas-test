@@ -1,3 +1,8 @@
+/* Hide Course Title */
+.pages.show.home .course-title {
+  display: none;
+}
+
 /* Right Sidebar */
 @media screen and (max-width: 1366px) {
   body:not(.full-width):not(.outcomes) .ic-Layout-wrapper {
