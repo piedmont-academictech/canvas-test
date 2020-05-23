@@ -1,0 +1,153 @@
+/* Right Sidebar */
+@media screen and (max-width: 1366px) {
+  body:not(.full-width):not(.outcomes) .ic-Layout-wrapper {
+    max-width: 2500px;
+  }
+
+  #not_right_side {
+    display: block;
+  }
+  #right-side-wrapper {
+    width: auto;
+  }
+}
+/* Banner Header Logo */
+.bnr-hdr-logo {
+  float: left;
+  max-width: 25%;
+  background-color: #144734;
+  border: 1px solid white;
+  border-top-left-radius: 0.75rem;
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+}
+@media screen and (max-width: 1366px) {
+  .bnr-hdr-logo {
+    float: none;
+    min-width: 100%;
+    border: none;
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+    padding: 0.25rem 7rem;
+  }
+}
+/* Banner Header Title */
+.bnr-hdr-title {
+  float: left;
+  background-color: #144734;
+  color: white;
+  border: 1px solid white;
+  border-top-right-radius: 0.75rem;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+}
+@media screen and (max-width: 1366px) {
+  .bnr-hdr-title {
+    float: none;
+    min-width: 100%;
+    color: white;
+    border: none;
+    border-top-right-radius: 0;
+    padding: 0.25rem;
+    text-align: center;
+  }
+}
+
+/* Overlay width adjustment */
+.ui-dialog.ui-widget-content {
+  width: 60% !important;
+  padding: 25px;
+}
+
+/* responsive video */
+
+.fitVids-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.fitVids-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Banner Nav Background */
+.bnr-nav-bkg {
+  background-color: #144734;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  border: 1px solid white;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+/* Banner Nav Buttons */
+
+.bnr-nav-btn {
+  background-color: #144734;
+  color: white;
+  border: none;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.bnr-nav-btn:hover {
+  background-color: #2d3b45;
+  font-weight: bold;
+}
+
+.bnr-nav-btn:active {
+  background-color: #144734;
+  color: white;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+/* Secondary Buttons */
+.Button--secondary:hover {
+  background-color: #2d3b45;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Module Cards */
+.mod-crd {
+  float: left;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 0.75rem;
+  box-shadow: 5px 5px 5px 2px #8f8f8f;
+  -webkit-box-shadow: 5px 5px 5px 2px #8f8f8f;
+}
+
+@media screen and (max-width: 1024px) {
+  .mod-crd {
+    float: none;
+    min-width: 100%;
+    border-radius: 0.75rem;
+  }
+}
+.mod-crd-title {
+  padding: 5px;
+  background-color: #144735;
+  border-bottom: 5px solid #b5a268;
+  color: white;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+}
+
+.mod-crd-inner {
+  border: 1px solid #b5a268;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+.mod-crd-txt {
+  padding: 20px;
+  text-align: left;
+}
