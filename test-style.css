@@ -139,8 +139,9 @@
 }
 .mod-crd-title {
   padding: 0px;
-  background: url(https://flic.kr/p/2j92oam) 0 0 no-repeat #99e9ff;
-  background-blend-mode: overlay;
+  background-image: url('https://flic.kr/p/2j92oam.jpg');
+  background-color: red;
+  background-blend-mode: screen;
   height: auto;
   width: 100%;
   border-bottom: 5px solid #b5a268;
