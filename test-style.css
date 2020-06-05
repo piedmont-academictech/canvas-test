@@ -140,10 +140,9 @@
   }
 }
 .mod-crd-title {
-  padding: 5px;
-  background-color: #144734;
+  padding: 0px;
+  background: url(http://192.168.1.206:3000/courses/1/files/324)
   border-bottom: 5px solid #b5a268;
-  color: white;
   border-top-right-radius: 0.75rem;
   border-top-left-radius: 0.75rem;
 }
