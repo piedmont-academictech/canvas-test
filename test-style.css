@@ -139,12 +139,11 @@
 }
 .mod-crd-title {
   padding: 0px;
-  background: url(http://192.168.1.206:3000/courses/1/files/324); no-repeat 0, 0 #99e9ff;
-  background-blend-mode: multiply;
+  background: #99e9ff;
+  background-blend-mode: overlay;
   height: auto;
   width: 100%;
   border-bottom: 5px solid #b5a268;
- 
 }
 
 .mod-crd-inner {
@@ -156,4 +155,4 @@
   padding: 20px;
   text-align: left;
 }
-*/
+*
