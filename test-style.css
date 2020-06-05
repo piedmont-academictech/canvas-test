@@ -127,7 +127,6 @@
   float: left;
   margin: 10px;
   padding: 5px;
-  border-radius: 0.75rem;
   box-shadow: 5px 5px 5px 2px #8f8f8f;
   -webkit-box-shadow: 5px 5px 5px 2px #8f8f8f;
 }
@@ -136,7 +135,6 @@
   .mod-crd {
     float: none;
     min-width: 100%;
-    border-radius: 0.75rem;
   }
 }
 .mod-crd-title {
@@ -146,8 +144,7 @@
   height: auto;
   width: 100%;
   border-bottom: 5px solid #b5a268;
-  border-top-right-radius: 0.75rem;
-  border-top-left-radius: 0.75rem;
+ 
 }
 
 .mod-crd-inner {
