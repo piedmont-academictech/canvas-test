@@ -144,13 +144,13 @@
   width: 100%;
   display: block;
   float: left;
-  background-color: red;
+  background-color: #B5A268 ;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .mod-crd-title--blend {
-  background-blend-mode: overlay;
+  background-blend-mode: screen;
 }
 
 .mod-crd-inner {
