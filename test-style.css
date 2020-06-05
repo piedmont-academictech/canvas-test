@@ -150,7 +150,7 @@
 }
 
 .mod-crd-title--blend {
-  background-blend-mode: screen;
+  background-blend-mode: overlay;
 }
 
 .mod-crd-inner {
