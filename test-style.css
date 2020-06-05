@@ -140,11 +140,17 @@
 .mod-crd-title {
   padding: 0px;
   background-image: url('https://flic.kr/p/2j92oam.jpg');
-  background-color: red;
-  background-blend-mode: screen;
   height: auto;
   width: 100%;
-  border-bottom: 5px solid #b5a268;
+  display: block;
+  float: left;
+  background-color: red;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.mod-crd-title--blend {
+  background-blend-mode: screen;
 }
 
 .mod-crd-inner {
