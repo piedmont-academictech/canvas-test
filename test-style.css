@@ -17,6 +17,9 @@
     width: auto;
   }
 }
+.ic-app-main-content__secondary {
+  background-color: #696057 0.5;
+}
 /* Banner Header Logo */
 .bnr-hdr-logo {
   float: left;
