@@ -16,17 +16,17 @@
   margin-top: 15px;
 }
 
-.icon-resources {
+.icon-instructure {
   position: relative;
   left: -2px;
 }
 
-.icon-resources:before {
+.icon-instructure:before {
   content: '\f13c';
 }
 
-.icon-resources[class*='icon-instructure']:before,
-.icon-resources[class^='icon-instructure']:before {
+.icon-instructure[class*='icon-']:before,
+.icon-instructure[class^='icon-']:before {
   font-size: 30px;
 }
 
