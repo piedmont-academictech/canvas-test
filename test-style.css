@@ -7,7 +7,10 @@
 
 /* Right Sidebar */
 #right-side-wrapper {
-  background-color: #c3bfbb;
+  background-color: #e1dfdd;
+}
+#right-side .h2 {
+  border-bottom: 1px solid #000000;
 }
 
 /* Banner Header Logo */
