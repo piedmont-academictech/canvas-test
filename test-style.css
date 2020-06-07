@@ -15,6 +15,7 @@
   display: block;
 }
 #right-side-wrapper {
+  width: auto;
   background-color: #e1dfdd;
 }
 #right-side .h2 {
