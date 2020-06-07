@@ -9,14 +9,15 @@
   body:not(.full-width):not(.outcomes) .ic-Layout-wrapper {
     max-width: 2500px;
   }
+}
 
-  #not_right_side {
-    display: block;
-  }
-  #right-side-wrapper {
-    width: auto;
-    background-color: #968F89;
-  }
+#not_right_side {
+  display: block;
+}
+#right-side-wrapper {
+  width: auto;
+  background-color: #968f89;
+}
 
 /* Banner Header Logo */
 .bnr-hdr-logo {
