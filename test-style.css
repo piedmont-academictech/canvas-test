@@ -15,12 +15,10 @@
   }
   #right-side-wrapper {
     width: auto;
+    background-color: #2d3b45;
+    color: white;
   }
-}
-.ic-app-main-content__secondary {
-  background-color: #2d3b45;
-  color: white;
-}
+
 /* Banner Header Logo */
 .bnr-hdr-logo {
   float: left;
