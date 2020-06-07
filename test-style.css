@@ -25,8 +25,8 @@
   content: '\f13c';
 }
 
-.icon-resources[class*='icon-']:before,
-.icon-resources[class^='icon-']:before {
+.icon-resources[class*='icon-instructure']:before,
+.icon-resources[class^='icon-instructure']:before {
   font-size: 30px;
 }
 
