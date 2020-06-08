@@ -5,31 +5,6 @@
 }
 */
 
-/* Custom Tray */
-
-#custom_nav .menu-item-icon-container {
-  position: relative;
-  left: -4px;
-}
-
-#custom_nav .menu-item__text {
-  margin-top: 15px;
-}
-
-.icon-folder {
-  position: relative;
-  left: -2px;
-}
-
-.icon-folder:before {
-  content: '\f13c';
-}
-
-.icon-folder[class*='icon-']:before,
-.icon-folder[class^='icon-']:before {
-  font-size: 30px;
-}
-
 /* Right Sidebar */
 #right-side-wrapper {
   background-color: #e1dfdd;
