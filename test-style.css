@@ -379,8 +379,8 @@ i.gnct_inst_menu_icon {
 }
 
 .mod-crd:hover {
-  box-shadow: 2px 2px 2px 2px #cccccc;
-  -webkit-box-shadow: 2px 2px 2px 2px #cccccc;
+  box-shadow: 2px 2px 2px 5px #cccccc;
+  -webkit-box-shadow: 2px 2px 2px 5px #cccccc;
 }
 
 .mod-crd-title {
