@@ -313,6 +313,11 @@ i.gnct_inst_menu_icon {
   height: 100%;
 }
 
+/*********Banner Video Div *****************/
+.bnr-nav-vid {
+  padding: 0 15%;
+}
+
 /* Banner Nav Background */
 .bnr-nav-bkg {
   background-color: #144734;
