@@ -367,8 +367,8 @@ i.gnct_inst_menu_icon {
   float: left;
   margin: 10px;
   padding: 5px;
-  box-shadow: 2px 2px 2px 1px #cccccc;
-  -webkit-box-shadow: 2px 2px 2px 1px #cccccc;
+  box-shadow: 2px 2px 1px 1px #cccccc;
+  -webkit-box-shadow: 2px 2px 1px 1px #cccccc;
 }
 
 @media screen and (max-width: 1024px) {
@@ -377,6 +377,12 @@ i.gnct_inst_menu_icon {
     min-width: 100%;
   }
 }
+
+.mod-crd:hover {
+  box-shadow: 2px 2px 2px 2px #cccccc;
+  -webkit-box-shadow: 2px 2px 2px 2px #cccccc;
+}
+
 .mod-crd-title {
   padding: 0px;
   background-image: url('https://live.staticflickr.com/65535/49978773097_17c968baa8_k.jpg');
