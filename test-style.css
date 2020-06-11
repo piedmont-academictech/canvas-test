@@ -269,6 +269,7 @@ i.gnct_inst_menu_icon {
 /* Banner Header Logo */
 .bnr-hdr-logo {
   float: left;
+  padding: 10% 5px;
   max-width: 25%;
   background-color: #144734;
   border: 1px solid white;
