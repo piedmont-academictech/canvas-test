@@ -19,6 +19,14 @@ h4 {
   display: none;
 }
 
+.pages.show.home .show-content {
+  padding-top: 0px;
+}
+
+.header-bar {
+  border-bottom: none;
+}
+
 /* Global Nav - Custom Tray */
 /* #main > span */
 /* #main > span > span */
