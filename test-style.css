@@ -335,6 +335,12 @@ i.gnct_inst_menu_icon {
   border-right: 1px solid white;
 }
 
+@media screen and (max-width: 1366px) {
+  .bnr-nav-vid {
+    padding: 0;
+  }
+}
+
 /* Banner Nav Background */
 .bnr-nav-bkg {
   background-color: #144734;
