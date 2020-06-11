@@ -332,6 +332,8 @@ i.gnct_inst_menu_icon {
 .bnr-nav-vid {
   padding: 0 15%;
   text-align: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 /* Banner Nav Background */
