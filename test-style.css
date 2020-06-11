@@ -280,7 +280,6 @@ i.gnct_inst_menu_icon {
   .bnr-hdr-logo {
     float: none;
     min-width: 100%;
-    border: none;
     border-top-right-radius: 0.75rem;
     border-top-left-radius: 0.75rem;
     padding: 0.25rem 7rem;
