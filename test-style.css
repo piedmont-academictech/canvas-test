@@ -1,9 +1,15 @@
-/* Hide Course Title 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Hide Course Title */
 .pages.show .page-title,
 .pages.show.home .course-title {
   display: none;
 }
-*/
+
 /* Global Nav - Custom Tray */
 /* #main > span */
 /* #main > span > span */
