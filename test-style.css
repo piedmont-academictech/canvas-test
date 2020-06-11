@@ -283,7 +283,7 @@ i.gnct_inst_menu_icon {
   background-color: #144734;
   border: 1px solid white;
   border-top-left-radius: 0.75rem;
-  padding: 1% 1rem 1% 1rem;
+  padding: 1.25rem 1rem 1.25rem 1rem;
   text-align: center;
 }
 @media screen and (max-width: 1366px) {
