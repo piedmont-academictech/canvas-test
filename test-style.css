@@ -400,27 +400,16 @@ i.gnct_inst_menu_icon {
   font-weight: bold;
 }
 
-/* ******* Bootstrap Divider with Shadow *********** */
-.h-divider {
-  margin: auto;
-  margin-top: 80px;
-  width: 80%;
-  position: relative;
-}
-
-.h-divider .shadow {
-  overflow: hidden;
+/* ******* hr divider with Shadow *********** */
+hr {
+  border: none;
   height: 20px;
-}
-
-.h-divider .shadow:after {
-  content: '';
-  display: block;
-  margin: -25px auto 0;
-  width: 100%;
-  height: 25px;
-  border-radius: 125px/12px;
-  box-shadow: 0 0 8px black;
+  width: 90%;
+  height: 50px;
+  margin-top: 0;
+  /*border-bottom: 1px solid #1f1209;*/
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
 }
 
 /* Module Cards */
