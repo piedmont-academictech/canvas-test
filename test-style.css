@@ -401,7 +401,7 @@ i.gnct_inst_menu_icon {
 }
 
 /* ******* hr divider with Shadow *********** */
-hr .section-divider {
+.section-divider {
   border: none;
   height: 20px;
   width: 90%;
