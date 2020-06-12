@@ -400,6 +400,19 @@ i.gnct_inst_menu_icon {
   font-weight: bold;
 }
 
+/* ******* Bootstrap Divider with Shadow *********** */
+.h-divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  position: relative;
+}
+
+.h-divider .shadow {
+  overflow: hidden;
+  height: 20px;
+}
+
 /* Module Cards */
 .mod-crd {
   float: left;
