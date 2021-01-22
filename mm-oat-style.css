@@ -35,6 +35,10 @@
     min-width: 100% !important;
 }
 
+.ic-app-main-content__secondary {
+    background-color: #B2B2B2;
+} /*right side bar*/
+
 /********Front Page Banner********/
 #mm-wrapper_frontpage {
     background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/prism.png);
