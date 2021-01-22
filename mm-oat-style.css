@@ -41,9 +41,9 @@
 }
 .gradient-cont {
     background: rgb(0,0,0);
-background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(105,96,87,0) 60%);
-background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(105,96,87,0) 60%);
-background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(105,96,87,0) 60%);
+background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(255,255,255,0) 60%);
+background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(255,255,255,0) 60%);
+background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(255,255,255,0) 60%);
 }
 
 .mm-header-image {
