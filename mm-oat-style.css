@@ -32,7 +32,7 @@
 }
 /**********Canvas Page Wrapper**********/
 body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-wrapper {
-    min-width: 90% !important;
+    min-width: 1366px;
 }
 
 .header-bar {
