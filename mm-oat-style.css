@@ -31,7 +31,7 @@
     font-size: 0.9em;
 }
 /**********Canvas Page Wrapper**********/
-.ic-Layout-wrapper {
+#wrapper .ic-Layout-wrapper {
     min-width: 100% !important;
 }
 
