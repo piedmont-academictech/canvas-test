@@ -46,6 +46,13 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 .with-right-side #right-side-wrapper {
     background-color: rgba(0, 0, 0, 0.03);
 }
+.pages .header-bar-outer-container {
+    max-height: 2rem;
+}
+
+.pages.show.home .course-title {
+    display: none;
+}
 
 
 
