@@ -32,7 +32,7 @@
 }
 /**********Canvas Page Wrapper**********/
 .ic-Layout-wrapper {
-    max-width: 100% !important;
+    min-width: 100% !important;
 }
 
 /********Front Page Banner********/
