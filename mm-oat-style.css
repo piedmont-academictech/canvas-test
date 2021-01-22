@@ -30,6 +30,10 @@
     font-weight: 400;
     font-size: 0.9em;
 }
+/**********Canvas Page Wrapper**********/
+.ic-Layout-wrapper {
+    max-width: 100%;
+}
 
 /********Front Page Banner********/
 #mm-wrapper_frontpage {
