@@ -32,8 +32,17 @@
 }
 /**********Canvas Page Wrapper**********/
 #wrapper .ic-Layout-wrapper {
-    min-width: 100% !important;
+    min-width: 90% !important;
 }
+
+.header-bar {
+    border-bottom: none;
+}
+
+.ic-app-nav-toggle-and-crumbs{
+    border-bottom: none;
+}
+
 
 
 /********Front Page Banner********/
