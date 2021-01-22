@@ -31,7 +31,7 @@
     font-size: 0.9em;
 }
 /**********Canvas Page Wrapper**********/
-#wrapper .ic-Layout-wrapper {
+body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-wrapper {
     min-width: 90% !important;
 }
 
