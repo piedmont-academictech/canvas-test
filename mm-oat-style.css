@@ -52,13 +52,14 @@
 }
 
 .mm-header-title {
+    margin-left: 30%;
     text-align: right;
     vertical-align: top;
 
 }
 
 .mm-header-logo {
-
+    margin-left: 30%;
     text-align: right;
     vertical-align: bottom;
 }
