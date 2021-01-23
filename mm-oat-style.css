@@ -58,6 +58,10 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     padding-top: 0px;
 }
 
+.ic-Layout-contentMain {
+    padding: 15px;
+    padding-top: 0px;
+}
 
 /********Front Page Banner********/
 #mm-wrapper_frontpage {
