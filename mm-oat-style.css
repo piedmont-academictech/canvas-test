@@ -68,7 +68,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/prism.png);
     background-repeat: repeat;
     width: 100%;
-    min-height: 13.45rem ;
+    min-height: 13.45rem;
     color: #fff;
 }
 .gradient-cont {
@@ -78,9 +78,15 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 }
 
 .mm-header-image {
-    top: 50%;
-    transform: translateY(-50%);
-    height: 13.45rem;
+    width: 100%;
+    min-height: 13.45rem;
+}
+
+.mm-header-image img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
 }
 
 .mm-header-title {
