@@ -78,15 +78,16 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 }
 
 .mm-header-image {
+    position: relative;
+    overflow:hidden;
     width: 100%;
     min-height: 13.45rem;
 }
 
 .mm-header-image img {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
+    position: absolute;
+    top:-100%; left:0; right: 0; bottom:-100%;
+    margin: auto;
 }
 
 .mm-header-title {
