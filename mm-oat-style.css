@@ -63,6 +63,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 #mm-wrapper_frontpage {
     background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/prism.png);
     background-repeat: repeat;
+    width: 100%;
     min-height: 13.45rem ;
     color: #fff;
 }
