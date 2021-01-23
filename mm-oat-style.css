@@ -39,11 +39,9 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     border-bottom: none;
 }
 
-/*
 .ic-app-nav-toggle-and-crumbs{
     border-bottom: none;
 }
-*/
 
 .with-right-side #right-side-wrapper {
     background-color: rgba(0, 0, 0, 0.03);
@@ -56,11 +54,10 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     display: none;
 }
 
-/*
 .pages.show.home .show-content {
     padding-top: 0px;
 }
-*/
+
 .ic-Layout-contentMain {
     padding: 15px;
     padding-top: 0px;
