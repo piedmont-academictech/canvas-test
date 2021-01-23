@@ -54,6 +54,9 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     display: none;
 }
 
+.pages.show.home .show-content {
+    padding-top: 0px;
+}
 
 
 /********Front Page Banner********/
