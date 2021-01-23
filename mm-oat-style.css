@@ -77,12 +77,13 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 }
 
 .mm-header-title {
-    margin-left: 30%;
+    margin-left: 35%;
+    text-align: right;
     vertical-align: top;
 
 }
 
 .mm-header-logo {
-    margin-left: 30%;
+    margin-left: 35%;
     vertical-align: bottom;
 }
