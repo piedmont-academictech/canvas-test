@@ -109,6 +109,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     position: absolute;
     z-index: 15;
     margin-left: 30%;
+    margin-bottom: 3rem;
 }
 
 .mm-header-title {
@@ -119,15 +120,26 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 
 .mm-wrapper-logo{
     width: 100%;
-    max-height: 50px;
+    height: 20%;
     position: absolute;
-    top: 10%;
+    bottom: 0;
     right: 0; 
+}
+.mm-logo-overlay {
+    z-index: 10;
 }
 
 .mm-header-logo {
+    position: relative;
+    overflow:hidden;
+    width: 100%;
+    min-height: 3rem;
+}
+
+.mm-header-logo img {
     position: absolute;
-    right: 0;
-    max-height: 50px;
-    padding: 1.5rem;
+    left: 0;
+    top: -15%; 
+    height: 3rem;
+
 }
