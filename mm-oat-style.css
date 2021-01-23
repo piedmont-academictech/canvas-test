@@ -71,22 +71,21 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     min-height: 13.45rem;
     color: #fff;
 }
-.gradient-cont {
-    background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 45%);
-    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 45%);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 45%);
-}
 
 .mm-header-image {
     position: relative;
     overflow:hidden;
     width: 100%;
     min-height: 13.45rem;
+    margin: 0px;
+    padding: 0px;
 }
 
 .mm-header-image img {
     position: absolute;
     left: 0;
+    top: -15%; 
+    height: 500px;
 }
 
 .mm-header-title {
