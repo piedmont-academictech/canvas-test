@@ -78,16 +78,11 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 }
 
 .mm-header-image {
-    background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png)center center no-repeat;
-    width:100%; 
-   height:100%; 
-    
-
-}
-.mm-header-image img{
-    position: absolute;
-    top:-100%; left:0; right: 0; bottom:-100%;
-    margin: auto;
+    background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png);
+    background-repeat: no-repeat;
+    position: relative;
+        top: 50%;
+        transform: translateY(-50%);
 }
 
 .mm-header-title {
