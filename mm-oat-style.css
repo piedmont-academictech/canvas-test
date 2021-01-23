@@ -83,6 +83,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     position: relative;
         top: 50%;
         transform: translateY(-50%);
+    height: 13.45rem;
 }
 
 .mm-header-title {
