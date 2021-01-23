@@ -65,6 +65,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     color: #fff;
 }
 .gradient-cont {
+    width: clamp(0rem, 2vw, 15rem);
     background: rgb(0,0,0);
     background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 45%);
     background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 45%);
