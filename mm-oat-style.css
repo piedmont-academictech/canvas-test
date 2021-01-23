@@ -78,8 +78,17 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 }
 
 .mm-header-image {
-    overflow: hidden;
+    background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png);
+    position: relative;
+    overflow:hidden;
+    height:13.45rem;
+    
 
+}
+.mm-header-image img{
+    position: absolute;
+    top:-100%; left:0; right: 0; bottom:-100%;
+    margin: auto;
 }
 
 .mm-header-title {
