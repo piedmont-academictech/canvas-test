@@ -117,7 +117,17 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     vertical-align: top;
 }
 
+.mm-wrapper-logo{
+    width: 100%;
+    max-height: 50px;
+    position: absolute;
+    top: 10%;
+    right: 0; 
+}
+
 .mm-header-logo {
-    margin-left: 35%;
-    vertical-align: bottom;
+    position: absolute;
+    right: 0;
+    max-height: 50px;
+    padding: 1.5rem;
 }
