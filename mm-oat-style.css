@@ -104,8 +104,12 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     height: 500px;
 }
 
-.mm-header-title {
+.mm-wrapper-title{
+    width: 65%;
     z-index: 15;
+}
+
+.mm-header-title {
     margin-right: 2rem;
     text-align: right;
     vertical-align: top;
