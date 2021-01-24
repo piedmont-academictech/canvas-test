@@ -63,6 +63,10 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     padding-top: 0px;
 }
 
+.page-title {
+    display: none;
+}
+
 /********Front Page Banner********/
 #mm-wrapper_frontpage {
     background-image: url(https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/prism.png);
