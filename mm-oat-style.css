@@ -130,9 +130,10 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 
 .mm-header-logo {
     position: relative;
+    float:right;
     margin-right: 2rem;
-    width: 100%;
-    min-height: 3rem;
+    width: 50%;
+    min-height: 19rem;
 }
 
 .mm-header-logo img {
