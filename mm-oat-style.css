@@ -149,7 +149,7 @@ width: 13.45rem;
 }
 
 .mm-header-navi a {
-    text-decoration: none;
+    text-decoration: none !important;
   }
   
   .mm-header-navi nav {
@@ -159,7 +159,7 @@ width: 13.45rem;
   }
   
   .mm-header-navi ul {
-    background: #eeeeee;
+    background: #000000;
       list-style: none;
       margin: 0;
       padding-left: 0;
@@ -167,13 +167,14 @@ width: 13.45rem;
   
   .mm-header-navi li {
       color: #fff;
-    background: #144734;
+    background: #000000;
       display: block;
       float: left;
-      padding: 1rem;
+      padding: 0.5rem;
       position: relative;
       text-decoration: none;
     transition-duration: 0.5s;
+    width: 13.45rem;
   }
     
   .mm-header-navi li a {
@@ -181,7 +182,7 @@ width: 13.45rem;
   }
   
   .mm-header-navi li:hover {
-      background: #696057;
+      background: #B2B2B2;
       cursor: pointer;
   }
   
@@ -192,9 +193,10 @@ width: 13.45rem;
     min-width: 5rem;
       position: absolute;
     transition: all 0.5s ease;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
       left: 0;
     display: none;
+    width: 13.45rem;
   }
   
   .mm-header-navi ul li:hover > ul,
