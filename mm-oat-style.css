@@ -113,7 +113,6 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 }
 
 .mm-header-title {
-    margin-right: 2rem;
     text-align: right;
     vertical-align: top;
 }
