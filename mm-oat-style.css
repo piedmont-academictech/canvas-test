@@ -142,3 +142,65 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     top: -15%; 
     width: 25rem;
 }
+
+/**********Dropdown Nav**********/
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 1.5em;
+  }
+  
+  ul {
+    background: #144734;
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  li {
+      color: #fff;
+    background: #144734;
+      display: block;
+      float: left;
+      padding: 1.5rem;
+      position: relative;
+      text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover {
+      background: #696057;
+      cursor: pointer;
+  }
+  
+  ul li ul {
+      background: #144734;
+      visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+      position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+      left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+      clear: both;
+    width: 100%;
+  }
