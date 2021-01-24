@@ -154,7 +154,8 @@ width: 13.45rem;
   
   .mm-header-navi nav {
       font-family: 'Roboto';
-      font-size: 1.5em;
+      font-weight: 400;
+      font-size: 1em;
   }
   
   .mm-header-navi ul {
