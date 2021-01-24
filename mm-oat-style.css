@@ -135,9 +135,9 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 .mm-header-logo {
     position: relative;
     float:right;
+    margin-top: -2.5rem;
     margin-right: 2rem;
     width: 50%;
-    min-height: 19rem;
 }
 
 .mm-header-logo img {
@@ -150,6 +150,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 /**********Dropdown Nav**********/
 .mm-header-navi {
 width: 13.45rem;
+margin-top: -2.5rem;
 }
 
 .mm-header-navi a {
