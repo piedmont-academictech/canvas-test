@@ -184,6 +184,7 @@ width: 13.45rem;
     
   .mm-header-navi li a {
     color: #fff;
+    text-decoration: none;
   }
   
   .mm-header-navi li:hover {
