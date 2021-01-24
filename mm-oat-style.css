@@ -121,6 +121,12 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     vertical-align: top;
 }
 
+/**********Nav & Logo**********/
+
+#mm-wrapper-nav {
+    background-color: #000000;
+}
+
 .mm-wrapper-logo{
     width: 50%;
     height: 2rem;
