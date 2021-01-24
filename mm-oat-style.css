@@ -131,6 +131,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 
 .mm-header-logo {
     position: relative;
+    margin-right: 2rem;
     width: 100%;
     min-height: 3rem;
 }
