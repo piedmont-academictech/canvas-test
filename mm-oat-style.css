@@ -105,10 +105,10 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 }
 
 .mm-wrapper-title{
-    width: 70%;
+    width: 60%;
     position: absolute;
     z-index: 15;
-    margin-left: 30%;
+    margin-left: 40%;
     margin-bottom: 3rem;
 }
 
