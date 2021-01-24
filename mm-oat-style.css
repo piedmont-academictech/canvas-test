@@ -150,7 +150,6 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 /**********Dropdown Nav**********/
 .mm-header-navi {
 width: 13.45rem;
-margin-top: -2.5rem;
 }
 
 .mm-header-navi a {
