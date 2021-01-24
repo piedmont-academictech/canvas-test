@@ -139,6 +139,5 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     position: absolute;
     right: 0;
     top: -15%; 
-    height: 2rem;
-
+    width: 12.5rem;
 }
