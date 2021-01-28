@@ -76,7 +76,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     Background-color: #000;
   }
 h1 .mm-prefix-color{
-  color: #415364; /*******************Change Prefix color here!!***************************/
+  color: #415364;
 }
 .mm-course-num {
   font-family: 'Lato'!important;
@@ -99,7 +99,6 @@ h1 .mm-prefix-color{
     margin: 0;
     min-height:13.45rem;
   }
-  /**********Nav**********/
   .navigation {
     display: flex;
     flex-flow: row wrap;
@@ -117,7 +116,7 @@ h1 .mm-prefix-color{
   }
 
   .navigation a:hover {
-    background: #415364; /***************change nav hover color here! (It should match the course prefix color)*******************************/
+    background: #415364;
   }
   /**********logo**********/
   .mm-logo {
@@ -169,8 +168,17 @@ h1 .mm-prefix-color{
       text-align: center !important;
       padding: 1rem;
     }
-     .mm-logo {
+     .navigation-logo {
       flex-flow: column wrap;
       padding: 0 1rem;
+    }
+    .navigation-logo a {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navigation-logo li:last-of-type a {
+      border-bottom: none;
     }
   }
