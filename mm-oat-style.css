@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 /**********Fonts**********/
 #course_home_content h1, h2 {
@@ -75,13 +75,20 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     background-size: contain;
     Background-color: #000;
   }
-  .mm-course-num{
-    font-family: 'Lato';
-    font-size: 200px;
-    font-weight: 900;
-    opacity: 50%;
-    line-height: 1px;
+h1 .mm-prefix-color{
+  color: #9D1D96;
+}
+.mm-course-num {
+  font-family: 'Lato'!important;
+   font-size: clamp(3em, 8vw, 10em);
+   font-weight: 900;
+   line-height: 1px;
   }
+.mm-course-title{
+  font-family: 'Lato'!important;
+  font-weight: 300;
+  margin-top: 0;
+}
   .mm-title {
     display: flex;
     flex-flow: row wrap;
@@ -176,6 +183,8 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
     }
     .mm-title {
       justify-content: space-around;
+      text-align: left;
+      padding: 1rem;
     }
      .navigation-logo {
       flex-flow: column wrap;
