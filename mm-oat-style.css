@@ -77,10 +77,10 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
   }
   .mm-course-num{
     font-family: 'Lato';
-    font-size: 6em;
+    font-size: 200px;
     font-weight: 900;
-    opacity: 30%;
-    line-height: 2px;
+    opacity: 50%;
+    line-height: 1px;
   }
   .mm-title {
     display: flex;
