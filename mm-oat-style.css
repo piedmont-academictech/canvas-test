@@ -95,8 +95,6 @@ h1 .mm-prefix-color{
   font-family: 'Lato'!important;
    font-size: clamp(3em, 6vw, 10em) !important;
    font-weight: 900 !important;
-   line-height: 1px !important;
-   margin: -6 0 !important;
 }
 .mm-course-title{
   font-family: 'Lato'!important;
