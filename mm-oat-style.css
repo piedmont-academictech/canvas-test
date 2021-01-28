@@ -97,6 +97,8 @@ h1 .mm-prefix-color{
   font-family: 'Lato'!important;
   font-weight: 300 !important;
   margin-top: 0 !important;
+     font-size: clamp(2em, 1vw, 3em) !important;
+
 }
   .navigation {
     display: flex;
@@ -135,8 +137,10 @@ h1 .mm-prefix-color{
     .navigation {
       justify-content: space-around;
     }
+    .header {
+      min-height: 13.45;
+    }
     .header .mm-title {
-      height: auto;
       text-align: right;
     }
     .mm-logo {
@@ -144,7 +148,7 @@ h1 .mm-prefix-color{
     }
   }
 
-  @media all and (max-width: 800px) {
+  @media all and (max-width: 1155px) {
     .navigation {
       flex-flow: row wrap;
       padding: 0;
