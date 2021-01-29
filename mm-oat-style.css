@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
- body{
-     background-color: #eee;
- }
+
 /**********Fonts**********/
 #course_home_content h1, h2 {
     font-family: 'Vollkorn', serif;
@@ -15,7 +13,7 @@
 #course_home_content p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 #wiki_page_show h1, h2 {
@@ -30,7 +28,7 @@
 #wiki_page_show p {
     font-family: 'Lato', sans-serif;
     font-weight:400;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 /**********Canvas Page**********/
 body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-wrapper {
@@ -48,6 +46,7 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 .with-right-side #right-side-wrapper {
     background-color: rgba(0, 0, 0, 0.03);
 }
+
 .pages .header-bar-outer-container {
     max-height: 2rem;
 }
@@ -71,6 +70,16 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 
 
 /********Front Page Banner********/
+
+.mm-readonly {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
 .header {
     background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png");
     background-repeat: no-repeat;
