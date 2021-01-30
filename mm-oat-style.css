@@ -150,25 +150,33 @@ h1 .mm-prefix-color{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-content: stretch;
     padding: 0;
     margin: 0;
     list-style: none;
   }
   
-  .flex-item {
-  background-color: #144734;
+  .mm-module-item {
+    width:18rem;
+    background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/dark-triangles.png");
     color: white;
     text-align: center;
     border: 10px solid white;
     box-shadow: 1px 1px 2px #aaaaaa;
+    margin: 1rem;
   }
-  
+  .mm-module-item a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .mm-mod-number{
+    text-align:right;
+    padding: 1rem 2rem;
+  }
   .mm-mod-title {
-    width:15rem;
-    height: 6rem;
-    background-color: #000;
+     height: 6rem;
+    background-color: #144734;
     padding:1rem;
   }
 
