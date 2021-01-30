@@ -12,8 +12,8 @@
 }
 #course_home_content p {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 1.5em;
+    font-weight: 300;
+    font-size: 1.25em;
 }
 
 #wiki_page_show h1, h2 {
@@ -27,8 +27,8 @@
 }
 #wiki_page_show p {
     font-family: 'Lato', sans-serif;
-    font-weight:400;
-    font-size: 1.5em;
+    font-weight:300;
+    font-size: 1.25em;
 }
 /**********Canvas Page**********/
 body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-wrapper {
@@ -144,6 +144,36 @@ h1 .mm-prefix-color{
     padding: 1rem;
   }
 
+  
+  /**********Module Cards**********/
+  .mm-modules-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+  background-color: #144734;
+    color: white;
+    text-align: center;
+    border: 10px solid white;
+    box-shadow: 1px 1px 2px #aaaaaa;
+  }
+  
+  .mm-mod-title {
+    width:15rem;
+    height: 6rem;
+    background-color: #000;
+    padding:1rem;
+  }
+
+  /**********@media**********/
+
   @media all and (max-width: 1200px) {
     .navigation {
       justify-content: space-around;
@@ -154,7 +184,7 @@ h1 .mm-prefix-color{
     .header .mm-title {
       text-align: right;
     }
-    .mm-logo {
+    .mm-logo, .mm-module-item {
       justify-content: space-around;
     }
   }
@@ -182,7 +212,7 @@ h1 .mm-prefix-color{
       text-align: center !important;
       padding: 1rem;
     }
-     .navigation-logo {
+     .navigation-logo, .mm-module-item {
       flex-flow: column wrap;
       padding: 0 1rem;
     }
@@ -195,31 +225,4 @@ h1 .mm-prefix-color{
     .navigation-logo li:last-of-type a {
       border-bottom: none;
     }
-  }
-
-  /**********Module Cards**********/
-  .mm-modules-cont {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: stretch;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  .flex-item {
-  background-color: #144734;
-    color: white;
-    text-align: center;
-    border: 10px solid white;
-    box-shadow: 1px 1px 2px #aaaaaa;
-  }
-  
-  .mm-mod-title {
-    width:15rem;
-    height: 6rem;
-    background-color: #000;
-    padding:1rem;
   }
