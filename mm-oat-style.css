@@ -80,12 +80,15 @@ body:not(.full-width):not(.outcomes):not(.body--login-confirmation) .ic-Layout-w
 user-select: none;
 }
 
-.header {
-    background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    Background-color: #000;
-  }
+.header-lion {
+  background-image:
+    url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/mm-oat-lion.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-triangles{
+  background-image: url("https://piedmont1-my.sharepoint.com/personal/melissaevans_piedmont_edu/Documents/images/brown-triangles.png");
+}
  .mm-title {
     display: flex;
     flex-flow: row wrap;
